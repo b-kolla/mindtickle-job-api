@@ -1,0 +1,19 @@
+{
+  "name": "mindtickle-job-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "setup-db": "node databaseSetup.js"
+  },
+  "author": "Bhargav <bhargavkolla4@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "sqlite3": "^3.1.10"
+  }
+}
